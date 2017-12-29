@@ -1,0 +1,29 @@
+{
+  "name": "echarts-bmap",
+  "version": "1.0.0",
+  "description": "BMap extension for echarts",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack && webpack -p",
+    "dev": "webpack -w --devtool eval-cheap-module-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecomfe/echarts-bmap.git"
+  },
+  "keywords": [
+    "bmap",
+    "gis",
+    "echarts",
+    "visualization"
+  ],
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/ecomfe/echarts-bmap/issues"
+  },
+  "homepage": "https://github.com/ecomfe/echarts-bmap#readme",
+  "devDependencies": {
+    "echarts": "^3.8.5",
+    "webpack": "^3.10.0"
+  }
+}
